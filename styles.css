@@ -1,0 +1,151 @@
+html {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+body {
+  margin: 0;
+}
+h1 {
+  font-size: 55px;
+  font-weight: bold;
+  color: #363636;
+  margin: 0px;
+}
+h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #363636;
+  margin: 0px;
+}
+h3 {
+  font-size: 30px;
+  font-weight: 500;
+  color: #363636;
+  margin: 0px;
+}
+.link-button {
+  text-decoration: none;
+  color: #fff;
+  padding: 24px 32px;
+  border-radius: 100px;
+  display: inline-block;
+  margin: 25px 0px;
+  background-image: linear-gradient(-45deg, #0287f6, #14bafc);
+  box-shadow: 0px 2px 30px rgba(0, 182, 255, 0.5);
+}
+.dark-blue {
+  color: #0287f6;
+}
+.sections {
+  padding: 0 100px;
+  display: flex;
+}
+.sections-content {
+  width: 50%;
+  height: 100vh - 50px;
+}
+.sections-content-info {
+  margin-top: 180px;
+}
+.descrption {
+  width: 550px;
+  font-size: 20px;
+  color: #838282;
+  margin: 35px 0 25px;
+}
+.sections-content img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Section Two Styles */
+.section-two {
+  background-image: url(item2.jpg);
+  background-repeat: no-repeat;
+  background-position: cover;
+}
+
+.section-two img {
+  width: 300px;
+  height: 500px;
+  margin-top: 100px;
+}
+
+/* Section Three Styles */
+.section-three {
+  margin: 20px 0;
+}
+.section-three-header {
+  text-align: center;
+}
+.section-three-header p {
+  width: 700px;
+  margin: 0 auto;
+}
+.box-container {
+  display: flex;
+}
+.box {
+  width: 30%;
+  height: 528px;
+  background: #fff;
+  box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+  margin: 0 20px;
+}
+.box img {
+  width: 90%;
+  height: 50%;
+  padding: 20px;
+}
+.box-info {
+  padding: 20px;
+}
+
+/* Section Four Styles */
+.section-four {
+  margin: 50px 0;
+}
+.mini-box {
+  width: 20%;
+  height: 328px;
+  background: #fff;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  margin: 0 20px;
+}
+.mini-box img {
+  width: 100%;
+  height: 75%;
+}
+
+/* Section Fiv Styles */
+.big-box {
+  width: 45%;
+  height: 528px;
+  background: #fff;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  margin: 0 20px;
+}
+/* Section Six Styles */
+.section-four-content {
+  display: flex;
+  background: #fff;
+  box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.3);
+}
+.section-four-box {
+  text-align: center;
+  width: 30%;
+  padding: 20px;
+}
+
+/* Footer Styles */
+footer {
+  height: 150px;
+  background-color: #0287f6;
+  text-align: center;
+  margin: 30px 0px 0px;
+  padding: 20px;
+}
+.white {
+  color: #fff;
+}
