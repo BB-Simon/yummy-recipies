@@ -4,6 +4,7 @@ html {
 }
 body {
   margin: 0;
+  padding: 0;
 }
 h1 {
   font-size: 55px;
@@ -23,6 +24,16 @@ h3 {
   color: #363636;
   margin: 0px;
 }
+h4 {
+  font-size: 25px;
+  font-weight: 500;
+  color: #363636;
+  margin: 6px 0px 0px;
+}
+p {
+  font-size: 18px;
+  color: #838282;
+}
 .link-button {
   text-decoration: none;
   color: #fff;
@@ -35,25 +46,27 @@ h3 {
 }
 .dark-blue {
   color: #0287f6;
+  margin: 0;
 }
-.sections {
+.container {
   padding: 0 100px;
+  margin: 50px 0px;
   display: flex;
 }
-.sections-content {
+
+/* Section One Styles */
+.section-content {
   width: 50%;
   height: 100vh - 50px;
 }
-.sections-content-info {
+.section-content-info {
   margin-top: 180px;
 }
 .descrption {
   width: 550px;
-  font-size: 20px;
-  color: #838282;
   margin: 35px 0 25px;
 }
-.sections-content img {
+.section-content img {
   width: 100%;
   height: 100%;
 }
@@ -62,25 +75,27 @@ h3 {
 .section-two {
   background-image: url(item2.jpg);
   background-repeat: no-repeat;
-  background-position: cover;
+  background-position: center top;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .section-two img {
   width: 300px;
   height: 500px;
-  margin-top: 100px;
+  padding-top: 100px;
 }
 
 /* Section Three Styles */
-.section-three {
-  margin: 20px 0;
-}
+
 .section-three-header {
   text-align: center;
 }
 .section-three-header p {
   width: 700px;
-  margin: 0 auto;
+  margin: 25px auto;
+  color: #838282;
+  font-size: 16px;
 }
 .box-container {
   display: flex;
@@ -89,13 +104,15 @@ h3 {
   width: 30%;
   height: 528px;
   background: #fff;
-  box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.3);
-  border-radius: 15px;
-  margin: 0 20px;
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.11);
+  border-radius: 25px;
+  margin: 0 25px;
 }
 .box img {
-  width: 90%;
+  width: 100%;
   height: 50%;
+}
+.box-img {
   padding: 20px;
 }
 .box-info {
@@ -103,36 +120,47 @@ h3 {
 }
 
 /* Section Four Styles */
-.section-four {
-  margin: 50px 0;
-}
 .mini-box {
-  width: 20%;
+  width: 23%;
   height: 328px;
   background: #fff;
-  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-  margin: 0 20px;
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.11);
+  margin: 0 25px;
 }
 .mini-box img {
   width: 100%;
   height: 75%;
 }
+.mini-box-info a {
+  color: #0287f6;
+  display: inline-block;
+  padding: 10px 15px;
+}
 
 /* Section Fiv Styles */
 .big-box {
-  width: 45%;
+  width: 48%;
   height: 528px;
   background: #fff;
-  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-  margin: 0 20px;
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.11);
+  margin: 0 25px;
+}
+.big-box div {
+  padding: 10px 15px;
+}
+.tag {
+  font-size: 14px;
+  font-weight: bold;
 }
 /* Section Six Styles */
-.section-four-content {
+.section-six-content {
+  width: 96%;
+  margin: 25px auto;
   display: flex;
   background: #fff;
-  box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.11);
 }
-.section-four-box {
+.section-six-box {
   text-align: center;
   width: 30%;
   padding: 20px;
@@ -146,6 +174,12 @@ footer {
   margin: 30px 0px 0px;
   padding: 20px;
 }
-.white {
+footer p {
+  color: rgb(17, 85, 4);
+}
+#recipe-color {
+  color: rgb(165, 165, 165);
+}
+#white-color {
   color: #fff;
 }
